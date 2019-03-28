@@ -79,6 +79,6 @@
       </dict>
     </dict>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"yyc9mFTeYT5tlypbcZhnLqvEJlMH7S5vQq0k9AgaazXCKKLcttdtyxh6ZT7xDL1RUEiVXMNIaQ1pLrv2Gwi4QQ==","electron.asar":"2KY+3HwY1IZizalUn+SIjM/iIabSIJbgwwaWpMd/Appw1L2IAGyz8B7cO1jRDQcwuyPqOmpP61fxCrjnoRPVVg=="}}</string>
+    <string>{"checksums":{"app.asar":"r8wl2L+1qKzB/wQcIk3jIxqqZwI11+nmzi2EuJ/RdVKylytaofecCyuAcvFPQ7WBD8ei/dtXscegBiF1mwM+sQ==","electron.asar":"2KY+3HwY1IZizalUn+SIjM/iIabSIJbgwwaWpMd/Appw1L2IAGyz8B7cO1jRDQcwuyPqOmpP61fxCrjnoRPVVg=="}}</string>
   </dict>
 </plist>

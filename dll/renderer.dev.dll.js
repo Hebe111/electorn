@@ -277,6 +277,18 @@ eval("module.exports = redux-thunk;\n\n//# sourceURL=webpack://renderer/external
 
 eval("module.exports = source-map-support;\n\n//# sourceURL=webpack://renderer/external_%22source-map-support%22?");
 
+/***/ }),
+
+/***/ "update-electron-app":
+/*!**************************************!*\
+  !*** external "update-electron-app" ***!
+  \**************************************/
+/*! no static exports found */
+/*! all exports used */
+/***/ (function(module, exports) {
+
+eval("module.exports = update-electron-app;\n\n//# sourceURL=webpack://renderer/external_%22update-electron-app%22?");
+
 /***/ })
 
 /******/ });
