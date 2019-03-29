@@ -36,28 +36,11 @@ export default class AppUpdater {
 // const feed = `${server}/update/${process.platform}/${app.getVersion()}`;
 // console.log(11111111, feed);
 //
-// autoUpdater.on("update-downloaded", (event, releaseNotes, releaseName) => {
-//   const dialogOpts = {
-//     type: "info",
-//     buttons: ["Restart", "Later"],
-//     title: "Application Update",
-//     message: process.platform === "win32" ? releaseNotes : releaseName,
-//     detail:
-//       "A new version has been downloaded. Restart the application to apply the updates."
-//   };
-//
-//   dialog.showMessageBox(dialogOpts, response => {
-//     if (response === 0) autoUpdater.quitAndInstall();
-//   });
-// });
-//
-// autoUpdater.on("error", message => {
-//   console.error("There was a problem updating the application");
-//   console.error(message);
-// });
+autoUpdater.on("checking-for-update", () => {
+  sendStatusToWindow("Checking for update...");
+});
 
 let mainWindow = null;
-let appIcon = null;
 
 if (process.env.NODE_ENV === "production") {
   const sourceMapSupport = require("source-map-support");
