@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/app.asar</key>
 		<data>
-		UAx1+lHUsVSTkJZZtL0E1DLo3xI=
+		XEPws8X/6e5NIPBLJh/J0K7uSLU=
 		</data>
 		<key>Resources/electron.asar</key>
 		<data>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			GAh+RBTGkx5KuMddeP6GcdNaosM=
+			0VqLxdakC2mtsElJ/kOfeYWWM9Q=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.electron.framework" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			LKPCF1SWi1bmDC3XowUMovxn6Rg=
+			IsQ8JSW52eNzqH6pV03NZAKpufA=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.Squirrel" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			4ONa1yZR1kTGnHQrqoDuyjcwfsU=
+			nijy4BVoBqT/h4wVayEIfcNPzvc=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.develar.whaleex.helper.EH" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			RWcJffYpBnh4PmL4vYWEZq8sKjg=
+			Ff3SBNn9eCBFsoKnl1tfQfyjaHM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.develar.whaleex.helper.NP" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			xlfKv4i1sPzg8xE3Haebe0v1xrU=
+			Z+RAVaGc8/ebsfWnBVv/lwWtubE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "org.develar.whaleex.helper" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -101,11 +101,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UAx1+lHUsVSTkJZZtL0E1DLo3xI=
+			XEPws8X/6e5NIPBLJh/J0K7uSLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			vVc1UYdKMSLFootOqwsQnf1T40pgIczqn2BTgrlgezo=
+			DLb+oRikDcEC7LnfAvg/+xWOTmyVCThNZNp0g5Yzqq8=
 			</data>
 		</dict>
 		<key>Resources/electron.asar</key>
