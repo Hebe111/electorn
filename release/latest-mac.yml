@@ -1,12 +1,12 @@
-version: 0.19.0
+version: 0.20.0
 files:
-  - url: whaleex-0.19.0-mac.zip
-    sha512: tthFf7ixBJe8yAslNsXNRjQZ0eQzjPtFdrgTuLaJ9M0vur7nXyY5kGeMU2vdj5aQfmsagWzoTEd9zgHFvshWiA==
-    size: 59887139
-    blockMapSize: 62956
-  - url: whaleex-0.19.0.dmg
-    sha512: VqyRUe2CwlcOAadejDa1cfhNZV75+SaE3zNT2mk44WSqZnQE9tj3gwXEKBOSfcJ8DTuWWAgYl5HhZRVuQdbwGA==
-    size: 61959511
-path: whaleex-0.19.0-mac.zip
-sha512: tthFf7ixBJe8yAslNsXNRjQZ0eQzjPtFdrgTuLaJ9M0vur7nXyY5kGeMU2vdj5aQfmsagWzoTEd9zgHFvshWiA==
-releaseDate: '2019-03-28T16:11:49.439Z'
+  - url: whaleex-0.20.0-mac.zip
+    sha512: 0exzfHDKHfA1KZuO7hR3n4gum5sa3svfZ1NL+pHKO9KrUnizUnzvo3bsJTJ3n+HI5MkKJOiuiJ2sOZ5ySG47rQ==
+    size: 61506149
+    blockMapSize: 64628
+  - url: whaleex-0.20.0.dmg
+    sha512: LobOgNMZHWj8AkbfpK1SjtsYUzyH0Wxwj7ymVp4WPMOuXQjfque5u201DGzut1f0cplgkSrLcwaGIIcvnVCStw==
+    size: 63589198
+path: whaleex-0.20.0-mac.zip
+sha512: 0exzfHDKHfA1KZuO7hR3n4gum5sa3svfZ1NL+pHKO9KrUnizUnzvo3bsJTJ3n+HI5MkKJOiuiJ2sOZ5ySG47rQ==
+releaseDate: '2019-03-29T06:23:51.670Z'
