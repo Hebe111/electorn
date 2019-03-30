@@ -1,8 +1,8 @@
-version: 0.25.0
+version: 0.28.0
 files:
-  - url: WhaleEx Setup 0.25.0.exe
-    sha512: PXp8gbmYFipcxMTh/4MHFSQUX41Z7Fwc2zNC/wzONpDp2LMEz5HbgbgXHtkw+vrHcJOKIP7ZuEOlLW/8sG23kw==
-    size: 47313050
-path: WhaleEx Setup 0.25.0.exe
-sha512: PXp8gbmYFipcxMTh/4MHFSQUX41Z7Fwc2zNC/wzONpDp2LMEz5HbgbgXHtkw+vrHcJOKIP7ZuEOlLW/8sG23kw==
-releaseDate: '2019-03-30T09:58:13.182Z'
+  - url: WhaleEx Setup 0.28.0.exe
+    sha512: VyQX+x1TThyLPcMfCUdREOJLQYarUKlhJbh1X3y+qLo1Sv7AuppfeOKF/+9LS8CQWKk/3dDjxH02jM7vsykxvA==
+    size: 47313155
+path: WhaleEx Setup 0.28.0.exe
+sha512: VyQX+x1TThyLPcMfCUdREOJLQYarUKlhJbh1X3y+qLo1Sv7AuppfeOKF/+9LS8CQWKk/3dDjxH02jM7vsykxvA==
+releaseDate: '2019-03-30T15:00:29.299Z'

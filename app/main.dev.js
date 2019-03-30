@@ -38,13 +38,15 @@ export default class AppUpdater {
     autoUpdater.logger = log;
     autoUpdater.checkForUpdatesAndNotify();
 
-    // const server = "https://hazel.17621412757.now.sh";
-    // const feed = `${server}/update/${process.platform}/${app.getVersion()}`;
-    // console.log(11111111, feed);
-    // autoUpdater.setFeedURL(feed);
-    // setInterval(() => {
-    //   autoUpdater.checkForUpdates();
-    // }, 60000);
+    console.log("333");
+
+    autoUpdater.on("checking-for-update", () => {
+      console.log("autoUpdater");
+      sendStatusToWindow("Checking for update...");
+    });
+    autoUpdater.on("update-not-available", () => {
+      console.log("no update");
+    });
   }
 }
 
@@ -52,9 +54,6 @@ export default class AppUpdater {
 // const feed = `${server}/update/${process.platform}/${app.getVersion()}`;
 // console.log(11111111, feed);
 //
-autoUpdater.on("checking-for-update", () => {
-  sendStatusToWindow("Checking for update...");
-});
 
 let mainWindow = null;
 

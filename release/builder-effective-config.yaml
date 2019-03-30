@@ -34,7 +34,6 @@ publish:
     url: 'https:///${name}/${os}/${arch}/'
   - provider: custom
     providerName: alioss
-    path: '/${name}/${os}/${arch}/'
     bucket: whaleex-electron-test
     region: oss-cn-shanghai
     accessKeyId: LTAIQ3betR33lolr
