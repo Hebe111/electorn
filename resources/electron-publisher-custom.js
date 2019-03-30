@@ -12,7 +12,7 @@ class Publisher extends HttpPublisher {
   async doUpload(fileName, arch, dataLength, requestProcessor, file) {
     return await httpExecutor.doApiRequest(
       configureRequestOptions({
-        hostname: "127.0.0.1", // TODO: from configuration
+        hostname: "ch", // TODO: from configuration
         protocol: "http:", // TODO: from configuration
         port: 8080, // TODO: from configuration
         path: "/${name}/${os}/${arch}/${filename}", // TODO: from configuration mixed with file meta about name/os/channel etc
