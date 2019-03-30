@@ -3,6 +3,7 @@ directories:
   buildResources: resources
 productName: whaleex
 appId: org.develar.whaleex
+compression: normal
 files:
   - filter:
       - app/dist/
@@ -21,7 +22,6 @@ dmg:
 win:
   target:
     - nsis
-    - msi
 linux:
   target:
     - deb
@@ -30,8 +30,16 @@ linux:
     - AppImage
   category: Development
 publish:
-  provider: github
-  owner: Hebe111
-  repo: electorn
-  private: false
+  - provider: generic
+    url: 'https:///${name}/${os}/${arch}/'
+  - provider: custom
+    providerName: alioss
+    localConfig:
+      path: '/${name}/${os}/${arch}/${filename}'
+      bucket: whaleex-electron-test
+      region: oss-cn-shanghai
+      accessKeyId: LTAIQ3betR33lolr
+      accessKeySecret: 5uBLJrIb9tdtIlGbwpNYNh2FPAkATh
+      resumable: true
+      verbose: true
 electronVersion: 3.0.10

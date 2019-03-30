@@ -1,4 +1,2 @@
-owner: Hebe111
-repo: electorn
-provider: github
-private: false
+provider: generic
+url: 'https:///electron-react-boilerplate/mac/x64/'

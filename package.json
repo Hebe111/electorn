@@ -1,7 +1,7 @@
 {
   "name": "electron-react-boilerplate",
   "productName": "鲸交所",
-  "version": "0.24.0",
+  "version": "0.25.0",
   "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
@@ -34,7 +34,7 @@
     "test-e2e": "node -r @babel/register ./internals/scripts/CheckBuiltsExist.js && cross-env NODE_ENV=test testcafe electron:./ ./test/e2e/HomePage.e2e.js",
     "test-e2e-live": "node -r @babel/register ./internals/scripts/CheckBuiltsExist.js && cross-env NODE_ENV=test testcafe-live electron:./ ./test/e2e/HomePage.e2e.js",
     "test-watch": "yarn test --watch",
-    "publish": "build --mac --win -p always"
+    "publish": "build --mac -p always"
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -60,6 +60,7 @@
   "build": {
     "productName": "whaleex",
     "appId": "org.develar.whaleex",
+    "compression": "normal",
     "files": [
       "app/dist/",
       "app/app.html",
@@ -83,8 +84,7 @@
     },
     "win": {
       "target": [
-        "nsis",
-        "msi"
+        "nsis"
       ]
     },
     "linux": {
@@ -100,12 +100,25 @@
       "buildResources": "resources",
       "output": "release"
     },
-    "publish": {
-      "provider": "github",
-      "owner": "Hebe111",
-      "repo": "electorn",
-      "private": false
-    }
+    "publish": [
+      {
+        "provider": "generic",
+        "url": "https:///${name}/${os}/${arch}/"
+      },
+      {
+        "provider": "custom",
+        "providerName": "alioss",
+        "localConfig": {
+          "path": "/${name}/${os}/${arch}/${filename}",
+          "bucket": "whaleex-electron-test",
+          "region": "oss-cn-shanghai",
+          "accessKeyId": "LTAIQ3betR33lolr",
+          "accessKeySecret": "5uBLJrIb9tdtIlGbwpNYNh2FPAkATh",
+          "resumable": true,
+          "verbose": true
+        }
+      }
+    ]
   },
   "repository": {
     "type": "git",
@@ -202,6 +215,7 @@
     "electron": "^3.0.10",
     "electron-builder": "^20.34.0",
     "electron-devtools-installer": "^2.2.4",
+    "electron-publisher-alioss": "^1.0.2",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.4",

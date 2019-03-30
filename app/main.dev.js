@@ -16,6 +16,22 @@ import { autoUpdater } from "electron-updater";
 import log from "electron-log";
 import MenuBuilder from "./menu";
 
+// document.on("click", 'a[href^="https://whaleex.zendesk.com"]', function(
+//   event
+// ) {
+//   event.preventDefault();
+//   shell.openExternal(this.href);
+//   console.log(1111);
+// });
+
+// const webview = document.getElementById('foo')
+// webview.addEventListener('new-window', (e) => {
+//     // const protocol = require('url').parse(e.url).protocol;
+//     // if (protocol === 'http:' || protocol === 'https:') {
+//     //     webview.src = e.url;
+//     // }
+// });
+
 export default class AppUpdater {
   constructor() {
     log.transports.file.level = "info";
