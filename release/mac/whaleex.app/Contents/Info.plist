@@ -5,23 +5,23 @@
     <key>BuildMachineOSBuild</key>
     <string>16G1618</string>
     <key>CFBundleDisplayName</key>
-    <string>whaleex</string>
+    <string>WhaleEx</string>
     <key>CFBundleExecutable</key>
-    <string>whaleex</string>
+    <string>WhaleEx</string>
     <key>CFBundleIconFile</key>
-    <string>whaleex.icns</string>
+    <string>WhaleEx.icns</string>
     <key>CFBundleIdentifier</key>
     <string>org.develar.whaleex</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>whaleex</string>
+    <string>WhaleEx</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.25.0</string>
+    <string>0.26.0</string>
     <key>CFBundleVersion</key>
-    <string>0.25.0</string>
+    <string>0.26.0</string>
     <key>DTSDKBuild</key>
     <string>16E185</string>
     <key>DTSDKName</key>
@@ -79,6 +79,6 @@
       </dict>
     </dict>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"Qk8igR2UAqA0T38xTGOadXNSjuj/BN4kU8URM1TguQxojc4cCCVGgLDBQQ5djoCaP5Ti820s94AL1BZH/6iDTA==","electron.asar":"2KY+3HwY1IZizalUn+SIjM/iIabSIJbgwwaWpMd/Appw1L2IAGyz8B7cO1jRDQcwuyPqOmpP61fxCrjnoRPVVg=="}}</string>
+    <string>{"checksums":{"app.asar":"6UZ3DkiOtsi6R0KVWBVaadDjFqEMn/dxGOElU/HTXOqSjAs2L7Fq92AYmtqVnp+W2/9P/jpnSGfkd8iRYrp/fQ==","electron.asar":"2KY+3HwY1IZizalUn+SIjM/iIabSIJbgwwaWpMd/Appw1L2IAGyz8B7cO1jRDQcwuyPqOmpP61fxCrjnoRPVVg=="}}</string>
   </dict>
 </plist>

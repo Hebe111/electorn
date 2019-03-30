@@ -1,7 +1,7 @@
 {
   "name": "electron-react-boilerplate",
-  "productName": "鲸交所",
-  "version": "0.25.0",
+  "productName": "WhaleEx",
+  "version": "0.26.0",
   "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
   "scripts": {
     "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
@@ -34,7 +34,7 @@
     "test-e2e": "node -r @babel/register ./internals/scripts/CheckBuiltsExist.js && cross-env NODE_ENV=test testcafe electron:./ ./test/e2e/HomePage.e2e.js",
     "test-e2e-live": "node -r @babel/register ./internals/scripts/CheckBuiltsExist.js && cross-env NODE_ENV=test testcafe-live electron:./ ./test/e2e/HomePage.e2e.js",
     "test-watch": "yarn test --watch",
-    "publish": "build --mac -p always"
+    "publish": "build --mac --win -p always"
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -58,7 +58,7 @@
   },
   "main": "./app/main.prod.js",
   "build": {
-    "productName": "whaleex",
+    "productName": "WhaleEx",
     "appId": "org.develar.whaleex",
     "compression": "normal",
     "files": [

@@ -5,9 +5,9 @@
     <key>BuildMachineOSBuild</key>
     <string>16G1618</string>
     <key>CFBundleDisplayName</key>
-    <string>whaleex Helper NP</string>
+    <string>WhaleEx Helper NP</string>
     <key>CFBundleExecutable</key>
-    <string>whaleex Helper NP</string>
+    <string>WhaleEx Helper NP</string>
     <key>CFBundleIdentifier</key>
     <string>org.develar.whaleex.helper.NP</string>
     <key>CFBundleName</key>
@@ -27,6 +27,6 @@
     <key>NSSupportsAutomaticGraphicsSwitching</key>
     <true/>
     <key>CFBundleVersion</key>
-    <string>0.25.0</string>
+    <string>0.26.0</string>
   </dict>
 </plist>

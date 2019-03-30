@@ -38,28 +38,26 @@
             : "./dist/renderer.prod.js"
         );
 
-        document.write("<div></div>");
         function run() {
           document.getElementById("link").click();
         }
 
         const shell = require("electron").shell;
 
-        const fileManagerBtn = document.getElementsByTagName("a");
-
-        console.log(8888);
-
         document.write(
           `<a href="https://w.whaleex.com.cn"><span id="link" /></a>`
         );
-        run();
+
+        const fileManagerBtn = document.getElementsByTagName("a");
+        console.log(fileManagerBtn);
+        // run();
 
         console.log(fileManagerBtn);
-        fileManagerBtn.addEventListener("click", function(event) {
-          console.log(event);
-          shell.openExternal("https://github.com");
-          // shell.showItemInFolder(os.homedir());
-        });
+        // fileManagerBtn.addEventListener("click", function(event) {
+        //   console.log(event);
+        //   shell.openExternal("https://github.com");
+        //   // shell.showItemInFolder(os.homedir());
+        // });
         // document.getElementsByTagName("a").click(event => {
         //   console.log(event);
         //   event.preventDefault();

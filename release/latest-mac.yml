@@ -1,15 +1,15 @@
-version: 0.25.0
+version: 0.26.0
 files:
-  - url: whaleex-0.25.0-mac.zip
-    sha512: BLedDxrAbuocMCUMJ3HqcVoElWafXyihjZ/steUkYYuVnV76a3NzOM0I5BnS6v2/zxy+wyYGsv/qB5HWl09jYg==
-    size: 61506932
-    blockMapSize: 64895
-  - url: whaleex-0.25.0.dmg
-    sha512: 8+1h2nrSjwzjFgE1tHMt5tpXRzs7cnWvLbxRHbzXNvlR6NeGG52bIdXVCbnnO5hv7JRuMzKfF+REI0+u1Stl9g==
-    size: 63588805
-  - url: whaleex-0.25.0.dmg
-    sha512: 8+1h2nrSjwzjFgE1tHMt5tpXRzs7cnWvLbxRHbzXNvlR6NeGG52bIdXVCbnnO5hv7JRuMzKfF+REI0+u1Stl9g==
-    size: 63588805
-path: whaleex-0.25.0-mac.zip
-sha512: BLedDxrAbuocMCUMJ3HqcVoElWafXyihjZ/steUkYYuVnV76a3NzOM0I5BnS6v2/zxy+wyYGsv/qB5HWl09jYg==
-releaseDate: '2019-03-30T07:20:51.779Z'
+  - url: WhaleEx-0.26.0-mac.zip
+    sha512: B7Ox62A1fCuCwunzOp0TLRFTzdKeldfRCfoB04zKMVH+3BNkspMttpmBgyxeqNqip7v+YVNsKjciTt2698MDWw==
+    size: 61506801
+    blockMapSize: 64906
+  - url: WhaleEx-0.26.0.dmg
+    sha512: o7cmH4c1dAD67jjDKgmj/6h8sqp4cSm49dMXt5gYKgRzM9gI/mkrX0u8AW37kLlC8uEYWalg7gfF0epCA7nsnw==
+    size: 63588520
+  - url: WhaleEx-0.26.0.dmg
+    sha512: o7cmH4c1dAD67jjDKgmj/6h8sqp4cSm49dMXt5gYKgRzM9gI/mkrX0u8AW37kLlC8uEYWalg7gfF0epCA7nsnw==
+    size: 63588520
+path: WhaleEx-0.26.0-mac.zip
+sha512: B7Ox62A1fCuCwunzOp0TLRFTzdKeldfRCfoB04zKMVH+3BNkspMttpmBgyxeqNqip7v+YVNsKjciTt2698MDWw==
+releaseDate: '2019-03-30T14:09:59.405Z'

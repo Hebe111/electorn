@@ -1,7 +1,7 @@
 directories:
   output: release
   buildResources: resources
-productName: whaleex
+productName: WhaleEx
 appId: org.develar.whaleex
 compression: normal
 files:
