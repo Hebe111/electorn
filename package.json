@@ -108,15 +108,13 @@
       {
         "provider": "custom",
         "providerName": "alioss",
-        "localConfig": {
-          "path": "/${name}/${os}/${arch}/${filename}",
-          "bucket": "whaleex-electron-test",
-          "region": "oss-cn-shanghai",
-          "accessKeyId": "LTAIQ3betR33lolr",
-          "accessKeySecret": "5uBLJrIb9tdtIlGbwpNYNh2FPAkATh",
-          "resumable": true,
-          "verbose": true
-        }
+        "path": "/${name}/${os}/${arch}/",
+        "bucket": "whaleex-electron-test",
+        "region": "oss-cn-shanghai",
+        "accessKeyId": "LTAIQ3betR33lolr",
+        "accessKeySecret": "5uBLJrIb9tdtIlGbwpNYNh2FPAkATh",
+        "resumable": true,
+        "verbose": true
       }
     ]
   },

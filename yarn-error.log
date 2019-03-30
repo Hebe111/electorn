@@ -30,7 +30,7 @@ npm manifest:
   {
     "name": "electron-react-boilerplate",
     "productName": "鲸交所",
-    "version": "0.24.0",
+    "version": "0.25.0",
     "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
     "scripts": {
       "build": "concurrently \"yarn build-main\" \"yarn build-renderer\"",
@@ -89,6 +89,7 @@ npm manifest:
     "build": {
       "productName": "whaleex",
       "appId": "org.develar.whaleex",
+      "compression": "normal",
       "files": [
         "app/dist/",
         "app/app.html",
@@ -112,8 +113,7 @@ npm manifest:
       },
       "win": {
         "target": [
-          "nsis",
-          "msi"
+          "nsis"
         ]
       },
       "linux": {
@@ -129,12 +129,23 @@ npm manifest:
         "buildResources": "resources",
         "output": "release"
       },
-      "publish": {
-        "provider": "github",
-        "owner": "Hebe111",
-        "repo": "electorn",
-        "private": false
-      }
+      "publish": [
+        {
+          "provider": "generic",
+          "url": "https:///${name}/${os}/${arch}/"
+        },
+        {
+          "provider": "custom",
+          "providerName": "alioss",
+          "path": "/${name}/${os}/${arch}/${filename}",
+          "bucket": "whaleex-electron-test",
+          "region": "oss-cn-shanghai",
+          "accessKeyId": "LTAIQ3betR33lolr",
+          "accessKeySecret": "5uBLJrIb9tdtIlGbwpNYNh2FPAkATh",
+          "resumable": true,
+          "verbose": true
+        }
+      ]
     },
     "repository": {
       "type": "git",
@@ -231,6 +242,7 @@ npm manifest:
       "electron": "^3.0.10",
       "electron-builder": "^20.34.0",
       "electron-devtools-installer": "^2.2.4",
+      "electron-publisher-alioss": "^1.0.2",
       "enzyme": "^3.7.0",
       "enzyme-adapter-react-16": "^1.7.0",
       "enzyme-to-json": "^3.3.4",
