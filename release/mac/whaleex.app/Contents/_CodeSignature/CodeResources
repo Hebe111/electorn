@@ -27,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			PyURW+8IbZtbuhGX3FTA/XEMDFM=
+			PZOR7Z/7Pcwba3G/0i+tMCULXgE=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.electron.framework" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			PN/PsXCs33gwSZDJkPwqyogl4us=
+			TQiwFuGROM5LnncuUsNF0dFQ+vM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.github.Squirrel" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: JUNJING WHALE (87Y83M5CRH)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
